@@ -1,0 +1,23 @@
+img{
+    width: 100px;
+    position: absolute;
+    animation: gear 8s infinite;
+}
+
+@keyframes gear {
+    0%{
+        transform: rotate(0);
+        left: 0;
+        top: 0;
+    }
+    50%{
+        transform: rotate(360deg);
+        left: 1150px;
+        top: 0px;
+    }
+    100%{
+        transform: rotate(0);
+        left: 1150px;
+        top: 500px; 
+    }
+}
